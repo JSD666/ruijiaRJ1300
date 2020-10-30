@@ -1,3 +1,0 @@
-<launch>
-  <node name="MainControl" pkg="controller_pkg" type="controller" output="log" cwd="node"/>
-</launch>

@@ -1,4 +1,0 @@
-def main():
-  global pAct=get_actual_tcp_pose()
-  movel (pose_trans(pAct,p[0,-1,0,0,0,0]),a=0.05,v=0.05)
-end

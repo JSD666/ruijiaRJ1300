@@ -1,3 +1,0 @@
-[submodule "controller_pkg"]
-	path = src/controller_pkg
-	url = http://117.78.8.34/RobotGroup/controller_pkg.git

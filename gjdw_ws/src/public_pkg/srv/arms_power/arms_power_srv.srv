@@ -1,6 +1,0 @@
-time  srvTime
-int32 arm_id
-string control_command
----
-int32  control_result   # 0--false  1--true  2--timeout
-string result

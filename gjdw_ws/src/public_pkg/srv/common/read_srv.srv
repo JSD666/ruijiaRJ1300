@@ -1,7 +1,0 @@
-string  srcNodeType #源节点类型
-string  srcNodeName #源节点名/源进程名
-string  args        #扩展参数,使用json格式
----
-int32   result      #读服务状态,例如成功或失败
-int32   errCode     #读服务错误码
-string  content     #读服务返回值内容,使用json格式
