@@ -1,0 +1,18 @@
+#PROGRAM TEST BEGIN
+
+#SEGMENT 1 TEST BEGIN
+
+#var_PP_pose1=0,0,0,0,0,0
+#var_PP_pose2=0,0,0,0,0,0
+#var_Joint_joint1=0,0,0,0,0,0
+#var_Joint_joint2=0,0,0,0,0,0
+
+#var_TCP_tool1=111.222,2.0,0.8,3.1,0.0,1.59
+#var_TCP_tool2=0.1,0.2,0.3,0.4,0.5,-0.5
+
+#GETMAPOS, 1, var_PP_pose1, var_Joint_joint1, var_TCP_tool1
+#GETMAPOS, 2, var_PP_pose2, var_Joint_joint2, var_TCP_tool2
+
+#SEGMENT 1 TEST END
+
+#PROGRAM TEST END

@@ -1,0 +1,12 @@
+def main():
+  global pAct=get_actual_tcp_pose()
+  global RPY=rotvec2rpy([pAct[3],pAct[4],pAct[5]])
+  global r=RPY[0]
+  global b=RPY[1]
+  global a=RPY[2]
+  global X= sin(a)*sin(r) + cos(a)*sin(b)*cos(r)
+  global Y= sin(a)*sin(b)*cos(r) - cos(a)*sin(r)
+  global Z= cos(b)*cos(r)
+  global proportion= -0.1/Z
+  speedl([X*proportion,Y*proportion,0.1,0,0,0],0.01,100)
+end

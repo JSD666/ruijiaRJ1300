@@ -1,0 +1,10 @@
+﻿#PROGRAM Heng_DualArm_AB BEGIN
+
+// 主臂（接线）竖起
+#SEGMENT 1 00C_01M_ShuQi BEGIN
+#RECORDSLIDERPOS,1,var_INT_pos
+#RECORDSLIDERPOS,2,var_INT_pos
+	#LIDARTOMA1,1,1,var_PP_YinLiuXian1,300,var_PP_preYinLiuXian1
+#SEGMENT 1 00C_01M_ShuQi END
+
+#PROGRAM Heng_DualArm_AB END

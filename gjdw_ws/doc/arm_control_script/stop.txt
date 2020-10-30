@@ -1,0 +1,2 @@
+stopj(d2r(30))
+stopl(0.8)
