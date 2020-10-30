@@ -1,0 +1,12 @@
+/nari/szrd/dnrobot/topic/subscribe/remote_cmd: '/nari/szrd/dnrobot/cmd'
+/nari/szrd/dnrobot/topic/publish/remote_cmd_rsp: '/nari/szrd/dnrobot/cmdRsp'
+/nari/szrd/dnrobot/topic/publish/yc: '/nari/szrd/dnrobot/yc'
+/nari/szrd/dnrobot/topic/publish/yx: '/nari/szrd/dnrobot/yx'
+/nari/szrd/dnrobot/topic/publish/heart_beat: '/nari/szrd/dnrobot/node/heartbeat'
+
+/nari/szrd/dnrobot/service/give/remote_cmd: '/nari/szrd/dnrobot/remote_cmd_srv'
+/nari/szrd/dnrobot/service/call/remote_remote: '/nari/szrd/dnrobot/remote_remote_srv'
+
+/nari/szrd/dnrobot/node/init_time_secs: 5
+/nari/szrd/dnrobot/node/heart_beat_secs: 4
+/nari/szrd/dnrobot/msg/valid_time_secs: 5

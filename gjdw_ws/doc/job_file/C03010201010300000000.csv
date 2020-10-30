@@ -1,0 +1,69 @@
+﻿#PROGRAM Shun_Parallel_ABC BEGIN
+//三角顺线路边相及平行顺线路三相
+// 主臂（接线）竖起伸出
+#SEGMENT 1 01M_ShuQi BEGIN
+#var_TCP_Ttool1=-0.06448999999999999,0.0207,0.28314999999999996,0.0,0.0,1.5902
+#var_TCP_Ttool2_1=0.0,0.0,0.416,0.0,0.0,2.6183
+//#GETMAPOS,1,var_PP_MYinLiuXian,var_Joint_MYinLiuXian,var_TCP_Ttool1
+//#OFFSET,var_PP_MYinLiuXian,var_TCP_Ttool1,1,1,0.2,var_PP_MYinLiuXian1
+//#MOVEJ3,1,var_PP_MYinLiuXian,var_TCP_Ttool1,8.0,0.2,0.3
+//#MOVEL2_WAITSIGNAL,1,var_PP_MYinLiuXian1,var_TCP_Ttool1,8.0,0.01,0.3,ClampWireTool,21,1
+#MANUALLY CONFIRM,通知-人工确认-继续运行|转人工控制
+#SEGMENT 1 01M_ShuQi END
+
+// 从臂（剥线）抓线、锁线
+#SEGMENT 2 02S_ZhuaXian BEGIN
+#MANUALLY CONFIRM,通知-人工确认-继续运行|转人工控制
+#SEGMENT 2 02S_ZhuaXian END
+
+// 从臂（剥线）举线
+#SEGMENT 3 03S_JuXian BEGIN
+#MANUALLY CONFIRM,通知-人工确认-继续运行|转人工控制
+#SEGMENT 3 03S_JuXian END
+
+// 主臂（接线）穿线。 
+#SEGMENT 4 04M_ChuangXian BEGIN
+#MANUALLY CONFIRM,通知-人工确认-继续运行|转人工控制
+#SEGMENT 4 04M_ChuangXian END
+
+// 从臂（剥线）撤抓线
+#SEGMENT 5 05S_Che_ZhuaXian BEGIN
+#MANUALLY CONFIRM,通知-人工确认-继续运行|转人工控制
+#SEGMENT 5 05S_Che_ZhuaXian END
+
+// 主臂（接线）贴线
+#SEGMENT 6 06M_TieXian BEGIN
+#MANUALLY CONFIRM,通知-人工确认-继续运行|转人工控制
+#SEGMENT 6 06M_TieXian END
+
+// 主臂（接线）至避让
+#SEGMENT 7 07M_BiRang BEGIN
+#MANUALLY CONFIRM,通知-人工确认-继续运行|转人工控制
+#SEGMENT 7 07M_BiRang END
+
+// 从臂（剥线）去剥线
+#SEGMENT 8 08S_Qu_BoXian BEGIN
+#MANUALLY CONFIRM,通知-人工确认-继续运行|转人工控制
+#SEGMENT 8 08S_Qu_BoXian END
+
+// 从臂（剥线）撤剥线
+#SEGMENT 9 09S_Che_BoXian BEGIN
+#MANUALLY CONFIRM,通知-人工确认-继续运行|转人工控制
+#SEGMENT 9 09S_Che_BoXian END
+
+// 主臂（接线）去接线
+#SEGMENT 10 10M_Qu_JieXian BEGIN
+#MANUALLY CONFIRM,通知-人工确认-继续运行|转人工控制
+#SEGMENT 10 10M_Qu_JieXian END
+
+// 主臂（接线）撤接线
+#SEGMENT 11 11M_Che_JieXian BEGIN
+#MANUALLY CONFIRM,通知-人工确认-继续运行|转人工控制
+#SEGMENT 11 11M_Che_JieXian END
+
+// 主臂（接线）、从臂（剥线）归零
+#SEGMENT 12 12D_ToZero BEGIN
+#MANUALLY CONFIRM,通知-人工确认-继续运行|转人工控制
+#SEGMENT 12 12D_ToZero END
+
+#PROGRAM Shun_Parallel_ABC END

@@ -1,0 +1,14 @@
+﻿#PROGRAM Shun_Parallel_ABC BEGIN
+//三角顺线路边相及平行顺线路三相
+// 主臂（接线）贴线
+#SEGMENT 1 06M_TieXian BEGIN
+#var_TCP_Ttool1=-0.06448999999999999,0.0207,0.28314999999999996,0.0,0.0,1.5902
+#var_TCP_Ttool2_1=0.0,0.0,0.416,0.0,0.0,2.6183
+//#MOVEL1,1,0.639,-0.163,1.074,-0.027,-0.050,-1.695,var_TCP_Ttool1,8.0,0.2,0.3
+*#MANUALLY CONFIRM
+#GETMAPOS,2,var_PP_MJieXian,var_Joint_MJieXian,var_TCP_Ttool2_1
+#OFFSET,var_PP_MJieXian,var_TCP_Ttool2_1,0,2,-0.3,var_PP_MPreJieXian
+#MOVEL2,2,var_PP_MJieXian,var_TCP_Ttool2_1,8.0,0.2,0.3
+#MOVEJ3,2,var_PP_MPreJieXian,var_TCP_Ttool2_1,8.0,0.2,0.3
+#SEGMENT 1 06M_TieXian END
+#PROGRAM Shun_Parallel_ABC END
