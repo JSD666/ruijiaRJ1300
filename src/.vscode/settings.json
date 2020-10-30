@@ -1,0 +1,8 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/ubuntu16/ROS_workspace/Robot_ws/devel/lib/python2.7/dist-packages",
+        "/home/ubuntu16/ROS_workspace/AGV_ws/devel/lib/python2.7/dist-packages",
+        "/home/ubuntu16/Code_Python/ROS_Python/devel/lib/python2.7/dist-packages",
+        "/opt/ros/kinetic/lib/python2.7/dist-packages"
+    ]
+}

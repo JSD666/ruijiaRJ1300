@@ -1,0 +1,44 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/ubuntu16/ROS_workspace/Robot_ws/devel/include/**",
+                "/home/ubuntu16/ROS_workspace/AGV_ws/devel/include/**",
+                "/home/ubuntu16/Code_Python/ROS_Python/devel/include/**",
+                "/opt/ros/kinetic/include/**",
+                "/home/ubuntu16/ROS_workspace/Robot_ws/src/aubo_robot-master/aubo_controller/include/**",
+                "/home/ubuntu16/ROS_workspace/Robot_ws/src/aubo_robot-master/aubo_driver/include/**",
+                "/home/ubuntu16/ROS_workspace/Robot_ws/src/aubo_robot-master/aubo_kinematics/include/**",
+                "/home/ubuntu16/ROS_workspace/Robot_ws/src/aubo_robot-master/aubo_msgs/include/**",
+                "/home/ubuntu16/ROS_workspace/Robot_ws/src/Ros_Qt5_Gui_App-master/include/**",
+                "/home/ubuntu16/ROS_workspace/Robot_ws/src/driver_bri/include/**",
+                "/home/ubuntu16/ROS_workspace/Robot_ws/src/industrial_core-kinetic-devel/industrial_robot_client/include/**",
+                "/home/ubuntu16/ROS_workspace/Robot_ws/src/industrial_core-kinetic-devel/industrial_trajectory_filters/include/**",
+                "/home/ubuntu16/ROS_workspace/Robot_ws/src/industrial_core-kinetic-devel/industrial_utils/include/**",
+                "/home/ubuntu16/ROS_workspace/Robot_ws/src/left_ur_driver/include/**",
+                "/home/ubuntu16/ROS_workspace/Robot_ws/src/public_pkg/include/**",
+                "/home/ubuntu16/ROS_workspace/Robot_ws/src/right_ur_driver/include/**",
+                "/home/ubuntu16/ROS_workspace/AGV_ws/src/sick_tim/include/**",
+                "/home/ubuntu16/ROS_workspace/Robot_ws/src/industrial_core-kinetic-devel/simple_message/include/**",
+                "/home/ubuntu16/ROS_workspace/Robot_ws/src/socket_tcp/include/**",
+                "/home/ubuntu16/ROS_workspace/AGV_ws/src/subscribe_pkg/include/**",
+                "/home/ubuntu16/ROS_workspace/AGV_ws/src/third_pkg/include/**",
+                "/home/ubuntu16/ROS_workspace/Robot_ws/src/universal_robot-kinetic-devel/ur_kinematics/include/**",
+                "/home/ubuntu16/ROS_workspace/Robot_ws/src/universal_robot-kinetic-devel/ur_modern_driver-master/include/**",
+                "/home/ubuntu16/ROS_workspace/Robot_ws/src/ur_test/include/**",
+                "/home/ubuntu16/ROS_workspace/AGV_ws/src/xrobot_serial/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
